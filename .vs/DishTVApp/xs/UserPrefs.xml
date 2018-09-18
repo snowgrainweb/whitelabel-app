@@ -1,0 +1,11 @@
+﻿<Properties StartupConfiguration="{94BA3405-8AC9-47A8-90B4-59DBF2D56EF0}|Default">
+  <MonoDevelop.Ide.ItemProperties.SnowGrain.Droid PreferredExecutionTarget="Android.3d5daa457d74" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SnowGrain.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D386A928-EA5B-4AEA-91C1-8546850332C5" automaticSigning="False" />
+</Properties>

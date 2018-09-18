@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WhiteLabel.SearchPage" xmlns:cc="using:WhiteLabel.CustomControls" Title="Search">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <SearchBar x:Name="search" TextChanged="Handle_TextChanged" Placeholder="Search.." TextColor="Gray" PlaceholderColor="Silver" />
+            <ListView x:Name="list" ItemTapped="Handle_ItemTapped" RowHeight="100" SeparatorVisibility="Default" SeparatorColor="Silver">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <cc:ExtendedViewCell SelectedBackgroundColor="#5d777e">
+                            <ViewCell.View>
+                                <Grid Padding="5, 5">                                    
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="150"/>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="15"/>
+                                        <RowDefinition Height="15"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Image Source="{Binding Image}" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0"/>
+                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding Name}" TextColor="Black" FontSize="Small" />
+                                    <Label Grid.Column="1" Grid.Row="1" Text="{Binding Date}" TextColor="Black" FontSize="Small" />
+                                    <Label Grid.Column="1" Grid.Row="2" Text="{Binding Content}" TextColor="Gray" FontSize="Small" />
+                                </Grid>
+                            </ViewCell.View>
+                        </cc:ExtendedViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

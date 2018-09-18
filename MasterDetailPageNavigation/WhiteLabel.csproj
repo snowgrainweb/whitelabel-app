@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CarouselView.FormsPlugin" Version="5.2.0" />
+    <PackageReference Include="Microsoft.Net.Http" Version="2.2.29" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.3.840" />
+    <PackageReference Include="Plugin.Facebook" Version="1.0.0" />
+    <PackageReference Include="Syncfusion.Xamarin.SfRating" Version="16.2.0.50" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.60.3" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="XAML\MyPage.xaml" />
+    <EmbeddedResource Remove="XAML\Login %28copy%29.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="XAML\ContactsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XAML\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="XAML\MasterPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="XAML\MyPage.xaml.cs" />
+    <Compile Remove="XAML\ExtendedViewCellRenderer.cs" />
+    <Compile Remove="CS\FaceBookViewModel.cs" />
+    <Compile Remove="XAML\Login.xaml %28copy%29.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="XAML\ChannelGuide.xaml.cs">
+      <DependentUpon>Articles.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Untitled-1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CS\" />
+    <Folder Include="XAML\image\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="paytm">
+      <HintPath>..\..\Paytm_App_Checksum_Kit_DotNet-master\Checksumcsharp\Bin\paytm.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

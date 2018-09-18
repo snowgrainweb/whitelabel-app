@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+				  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+				  xmlns:local="clr-namespace:WhiteLabel;assembly=WhiteLabel"
+				  x:Class="WhiteLabel.MainPage">
+    <MasterDetailPage.Resources>
+    <ResourceDictionary>
+      
+      <!-- Styles -->
+      <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="#37484d"/>
+        <Setter Property="BarTextColor" Value="White"/>
+      </Style>
+      <!-- Styles -->
+
+    </ResourceDictionary>
+  </MasterDetailPage.Resources>
+  <MasterDetailPage.Master>
+  	<local:MasterPage x:Name="masterPage"/>        
+  </MasterDetailPage.Master>
+	<MasterDetailPage.Detail>        
+		<NavigationPage>       
+            <NavigationPage.Title>WhiteLabel</NavigationPage.Title>
+			<x:Arguments>
+				<local:HomePage />
+			</x:Arguments>
+		</NavigationPage>
+	</MasterDetailPage.Detail>
+</MasterDetailPage>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WhiteLabel.ProductDetail" Title="{Binding Name}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White" Padding="15, 15, 15, 15">
+                <Image Source="{Binding Image}" HeightRequest="150" Aspect="Fill">
+                </Image>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="{Binding Name}" TextColor="Black" FontSize="16" Grid.Row="0" Grid.Column="0" />
+                    <Image Source="http://www.cayucoscollective.com/wp-content/uploads/2014/08/5-star-review.png" HeightRequest="20" Grid.Row="0" Grid.Column="1" />
+                    <Label HorizontalTextAlignment="Start" Text="{Binding Date}" FontSize="12" TextColor="Gray" Grid.Row="1" Grid.Column="0" />
+                </Grid>
+                <BoxView BackgroundColor="#cccccc" HeightRequest="2" />
+                <StackLayout HorizontalOptions="FillAndExpand">
+                    <Label XAlign="Center" TextColor="Black" Text="{Binding DetailContent}">
+                    </Label>
+                </StackLayout>
+                <StackLayout VerticalOptions="EndAndExpand" IsVisible="{Binding IsProduct}">
+                    <Label Text="₹200" TextColor="Black" FontSize="24" HorizontalTextAlignment="Center"/>
+                    <Button Text="Buy Now" Clicked="Handle_Clicked" BackgroundColor="#37484d" TextColor="White" HorizontalOptions="Center" WidthRequest="300" BorderColor="White"/>
+                    <Label Text="Related Products" TextColor="Gray" />
+                    <Grid VerticalOptions="End">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50" />
+                            <RowDefinition Height="15" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="https://landerapp.com/blog/wp-content/uploads/2018/05/MAG-FR-Oestreicher-Singer-Product-Recommendation-Viral-Marketing-Social-Media-Network-Ecommerce-1200-1200x627.jpg" Grid.Row="0" Grid.Column="0" />
+                        <Image Source="https://t4.ftcdn.net/jpg/01/75/23/93/240_F_175239330_RKRjcOgaN0dW1F2vLgGxKfAIMLftBdIT.jpg" Grid.Row="0" Grid.Column="1" />
+                        <Image Source="https://www.openxcell.com/wp-content/uploads/2017/03/lean-startup-banner-image.jpg" Grid.Row="0" Grid.Column="2" />
+                        <Label Text="Product 1" TextColor="Black" FontSize="Micro" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center" />
+                        <Label Text="Product 2" TextColor="Black" FontSize="Micro" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center" />
+                        <Label Text="Product 3" TextColor="Black" FontSize="Micro" Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Center" />
+                    </Grid>
+                    <BoxView BackgroundColor="#000080" HeightRequest="1" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label HorizontalTextAlignment="Center" Text="100 Likes" FontSize="14" TextColor="Navy" Grid.Row="0" Grid.Column="0" />
+                        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="2" Padding="5">
+                            <Image Source="https://png.icons8.com/metro/50/000080/share.png" />
+                            <Image Source="https://png.icons8.com/metro/50/000080/hearts.png" />
+                            <Image Source="https://png.icons8.com/metro/50/000080/comments.png" />
+                        </StackLayout>
+                    </Grid>
+                    <BoxView BackgroundColor="#000080" HeightRequest="1" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

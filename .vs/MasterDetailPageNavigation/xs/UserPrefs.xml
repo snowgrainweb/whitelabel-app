@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{3D54620E-23F2-462B-A824-B074D41BD507}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+    <Files>
+      <File FileName="MasterDetailPageNavigation/XAML/ContactsPage.xaml" Line="19" Column="61" />
+      <File FileName="iOS/AppDelegate.cs" Line="22" Column="40" />
+      <File FileName="MasterDetailPageNavigation/obj/Debug/netstandard2.0/MasterDetailPageNavigation.XAML.ContactsPage.xaml.g.cs" Line="21" Column="1" />
+      <File FileName="iOS/Main.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/CS/MainPageCS.cs" relfile="MasterDetailPageNavigation/CS/MainPageCS.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MasterDetailPageNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D386A928-EA5B-4AEA-91C1-8546850332C5" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MasterDetailPageNavigation.Droid PreferredExecutionTarget="Android.3d5daa457d74" />
+</Properties>

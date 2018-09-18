@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WhiteLabel.ContactPage" Title="Contact Us">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="White">
+            <StackLayout>
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <Frame BackgroundColor="#ffffff" HasShadow="false" VerticalOptions="Start">
+                        <StackLayout>
+                            <Image Source="https://png.icons8.com/wired/75/000000/worldwide-location.png" HorizontalOptions="CenterAndExpand" />
+                            <Label TextColor="Black" Text="White Label Pvt. Ltd." HorizontalTextAlignment="Center" />
+                            <Label TextColor="Black" Text="ABC Park" HorizontalTextAlignment="Center" />
+                            <Label TextColor="Black" Text="XYZ Street" HorizontalTextAlignment="Center" />
+                            <Label TextColor="Black" Text="Lorem Ipsum" HorizontalTextAlignment="Center" />
+                            <Label TextColor="Black" Text="67557" HorizontalTextAlignment="Center" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Frame BackgroundColor="#eeeeee" HasShadow="true">
+                        <Button BorderColor="Black" BorderWidth="0" Clicked="Handle_Clicked_1" BackgroundColor="#eeeeee" ContentLayout="Left,0" Image="call.png" Text="1800-123-987" TextColor="#37484d" FontSize="18" HorizontalOptions="FillAndExpand" />
+                    </Frame>
+                    <Frame BackgroundColor="#eeeeee" HasShadow="true">
+                        <Button BorderColor="Black" BorderWidth="0" Clicked="Handle_Clicked" ContentLayout="Left,10" BackgroundColor="#eeeeee" Image="email.png" Text="support@whitelabel.com" TextColor="#37484d" FontSize="18" HorizontalOptions="FillAndExpand" />
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{3D54620E-23F2-462B-A824-B074D41BD507}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetailPageNavigation/obj/Debug/netstandard2.0/DishApp.XAML.MainPage.xaml.g.cs">
+    <Files>
+      <File FileName="MasterDetailPageNavigation/XAML/ServicePage.xaml" Line="46" Column="38" />
+      <File FileName="MasterDetailPageNavigation/XAML/MainPage.xaml" Line="30" Column="1" />
+      <File FileName="MasterDetailPageNavigation/XAML/MasterPage.xaml" Line="31" Column="46" />
+      <File FileName="iOS/AppDelegate.cs" Line="23" Column="37" />
+      <File FileName="iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="iOS/Entitlements.plist" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="MasterDetailPageNavigation/obj/Debug/netstandard2.0/DishApp.XAML.MainPage.xaml.g.cs" Line="16" Column="59" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/CS/MainPageCS.cs" relfile="MasterDetailPageNavigation/CS/MainPageCS.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DishApp.Droid PreferredExecutionTarget="Android.3d5daa457d74" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DishApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D386A928-EA5B-4AEA-91C1-8546850332C5" automaticSigning="False" />
+</Properties>

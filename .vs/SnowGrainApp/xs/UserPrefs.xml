@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{3D54620E-23F2-462B-A824-B074D41BD507}|Default">
+  <MonoDevelop.Ide.ItemProperties.WhiteLabel.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D386A928-EA5B-4AEA-91C1-8546850332C5" automaticSigning="False" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetailPageNavigation/obj/Debug/netstandard2.0/XAML/ProductsPage.xaml.g.cs">
+    <Files>
+      <File FileName="MasterDetailPageNavigation/XAML/ArticlesPage.xaml" Line="47" Column="15" />
+      <File FileName="MasterDetailPageNavigation/XAML/ArticlesPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MasterDetailPageNavigation/XAML/MainPage.xaml" Line="16" Column="10" />
+      <File FileName="MasterDetailPageNavigation/obj/Debug/netstandard2.0/XAML/ArticlesPage.xaml.g.cs" Line="11" Column="74" />
+      <File FileName="MasterDetailPageNavigation/obj/Debug/netstandard2.0/XAML/HomePage.xaml.g.cs" Line="11" Column="74" />
+      <File FileName="MasterDetailPageNavigation/obj/Debug/netstandard2.0/XAML/MainPage.xaml.g.cs" Line="11" Column="74" />
+      <File FileName="MasterDetailPageNavigation/obj/Debug/netstandard2.0/XAML/MasterPage.xaml.g.cs" Line="11" Column="74" />
+      <File FileName="MasterDetailPageNavigation/obj/Debug/netstandard2.0/XAML/OffersPage.xaml.g.cs" Line="11" Column="74" />
+      <File FileName="MasterDetailPageNavigation/obj/Debug/netstandard2.0/XAML/ProductDetail.xaml.g.cs" Line="11" Column="74" />
+      <File FileName="MasterDetailPageNavigation/obj/Debug/netstandard2.0/XAML/ProductsPage.xaml.g.cs" Line="11" Column="74" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WhiteLabel.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+</Properties>
