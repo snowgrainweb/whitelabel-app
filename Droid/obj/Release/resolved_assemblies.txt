@@ -56,3 +56,4 @@
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/android/assets/System.ServiceModel.Internals.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/android/assets/System.Xml.Linq.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/android/assets/Mono.Security.dll
+/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/android/assets/paytm.dll

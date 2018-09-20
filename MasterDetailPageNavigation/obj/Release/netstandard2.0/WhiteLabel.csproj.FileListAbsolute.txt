@@ -17,3 +17,6 @@
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/XamlC.stamp
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/WhiteLabel.dll
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/WhiteLabel.pdb
+/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/XAML/ContactPage.xaml.g.cs
+/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/XAML/OrderPage.xaml.g.cs
+/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/WhiteLabel.csprojResolveAssemblyReference.cache

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
+    <Jar>obj/Debug/lp/8/jl/formsviewgroup.jar</Jar>
     <Jar>/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/lp/22/jl/arch-core-common.jar</Jar>
     <Jar>/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/lp/23/jl/arch-lifecycle-common.jar</Jar>
     <Jar>/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/lp/24/jl/bin/classes.jar</Jar>

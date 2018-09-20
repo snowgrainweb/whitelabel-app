@@ -18,6 +18,5 @@
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Debug/netstandard2.0/WhiteLabel.dll
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Debug/netstandard2.0/WhiteLabel.pdb
-/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/bin/Debug/netstandard2.0/paytm.dll
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Debug/netstandard2.0/WhiteLabel.csprojResolveAssemblyReference.cache
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Debug/netstandard2.0/XAML/OrderPage.xaml.g.cs

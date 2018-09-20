@@ -56,7 +56,15 @@
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/R.cs.flag
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/R.txt
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/uploadflags.txt
+/Users/Riju/Downloads/MasterDetailPage/Droid/bin/Release/paytm.dll
+/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/res/drawable/call.png
+/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/res/drawable/email.png
+/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/res/drawable/facebook.png
+/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/res/drawable/back.png
+/Users/Riju/.nuget/packages/xamarin.forms/3.2.0.839982/lib/MonoAndroid10/FormsViewGroup.dll
+/Users/Riju/.nuget/packages/xamarin.forms/3.2.0.839982/lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Release/Xamarin.Forms.Core.pdb
+/Users/Riju/Downloads/MasterDetailPage/Droid/bin/Release/Xamarin.Forms.Xaml.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/linksrc/WhiteLabel.Droid.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/linksrc/FFImageLoading.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Release/linksrc/FFImageLoading.Forms.pdb
