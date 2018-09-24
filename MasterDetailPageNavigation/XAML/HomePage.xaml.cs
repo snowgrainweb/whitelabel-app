@@ -68,7 +68,13 @@ namespace WhiteLabel
 
 			Device.BeginInvokeOnMainThread(() => { listView1.IsRefreshing = true; listView1.BeginRefresh(); });
 			var UrlD = Url + Utility.getLanguageCode(GlobalData.language);
-			string content = await client.GetStringAsync(UrlD);
+			string content = "";
+			if(Utility.isConnected()){
+				content = await client.GetStringAsync(UrlD);
+			} else {
+				DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
+				return;
+			}
 			HomeData response = JsonConvert.DeserializeObject<HomeData>(content);
 			contentListItems = new ObservableCollection<WhiteLabel.ContentListItem>();
 			listView1.IsVisible = false;           

@@ -16,9 +16,6 @@
           "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         }
       },
-      "ChurchNexusPayTMPackage/1.0.0": {
-        "type": "package"
-      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -122,7 +119,7 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.2.0.50": {
+      "Syncfusion.Licensing/16.3.0.21": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -131,10 +128,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfRating/16.2.0.50": {
+      "Syncfusion.Xamarin.SfRating/16.3.0.21": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.2.0.50",
+          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -155,6 +152,20 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/4.0.0.190-beta": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.SimplePing": "1.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -321,17 +332,26 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.SimplePing/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS10/Xamarin.SimplePing.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS10/Xamarin.SimplePing.iOS.dll": {}
+        }
+      },
       "WhiteLabel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CarouselView.FormsPlugin": "5.2.0",
-          "ChurchNexusPayTMPackage": "1.0.0",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "11.0.2",
           "Plugin.Facebook": "1.0.0",
           "SkiaSharp.Views.Forms": "1.60.3",
-          "Syncfusion.Xamarin.SfRating": "16.2.0.50",
+          "Syncfusion.Xamarin.SfRating": "16.3.0.21",
+          "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
           "Xamarin.Forms": "3.2.0.839982"
@@ -359,9 +379,6 @@
           "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         }
       },
-      "ChurchNexusPayTMPackage/1.0.0": {
-        "type": "package"
-      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -443,7 +460,7 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.2.0.50": {
+      "Syncfusion.Licensing/16.3.0.21": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -452,10 +469,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfRating/16.2.0.50": {
+      "Syncfusion.Xamarin.SfRating/16.3.0.21": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.2.0.50",
+          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -476,6 +493,20 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/4.0.0.190-beta": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.SimplePing": "1.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -642,17 +673,26 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.SimplePing/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS10/Xamarin.SimplePing.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS10/Xamarin.SimplePing.iOS.dll": {}
+        }
+      },
       "WhiteLabel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CarouselView.FormsPlugin": "5.2.0",
-          "ChurchNexusPayTMPackage": "1.0.0",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "11.0.2",
           "Plugin.Facebook": "1.0.0",
           "SkiaSharp.Views.Forms": "1.60.3",
-          "Syncfusion.Xamarin.SfRating": "16.2.0.50",
+          "Syncfusion.Xamarin.SfRating": "16.3.0.21",
+          "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
           "Xamarin.Forms": "3.2.0.839982"
@@ -680,9 +720,6 @@
           "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         }
       },
-      "ChurchNexusPayTMPackage/1.0.0": {
-        "type": "package"
-      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -764,7 +801,7 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.2.0.50": {
+      "Syncfusion.Licensing/16.3.0.21": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -773,10 +810,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfRating/16.2.0.50": {
+      "Syncfusion.Xamarin.SfRating/16.3.0.21": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.2.0.50",
+          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -797,6 +834,20 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/4.0.0.190-beta": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.SimplePing": "1.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -963,17 +1014,26 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.SimplePing/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS10/Xamarin.SimplePing.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS10/Xamarin.SimplePing.iOS.dll": {}
+        }
+      },
       "WhiteLabel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CarouselView.FormsPlugin": "5.2.0",
-          "ChurchNexusPayTMPackage": "1.0.0",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "11.0.2",
           "Plugin.Facebook": "1.0.0",
           "SkiaSharp.Views.Forms": "1.60.3",
-          "Syncfusion.Xamarin.SfRating": "16.2.0.50",
+          "Syncfusion.Xamarin.SfRating": "16.3.0.21",
+          "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
           "Xamarin.Forms": "3.2.0.839982"
@@ -1001,9 +1061,6 @@
           "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
         }
       },
-      "ChurchNexusPayTMPackage/1.0.0": {
-        "type": "package"
-      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -1085,7 +1142,7 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.2.0.50": {
+      "Syncfusion.Licensing/16.3.0.21": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -1094,10 +1151,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfRating/16.2.0.50": {
+      "Syncfusion.Xamarin.SfRating/16.3.0.21": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "16.2.0.50",
+          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "2.4.0.280"
         },
         "compile": {
@@ -1118,6 +1175,20 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/4.0.0.190-beta": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.SimplePing": "1.4.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -1284,17 +1355,26 @@
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.SimplePing/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS10/Xamarin.SimplePing.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS10/Xamarin.SimplePing.iOS.dll": {}
+        }
+      },
       "WhiteLabel/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CarouselView.FormsPlugin": "5.2.0",
-          "ChurchNexusPayTMPackage": "1.0.0",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "11.0.2",
           "Plugin.Facebook": "1.0.0",
           "SkiaSharp.Views.Forms": "1.60.3",
-          "Syncfusion.Xamarin.SfRating": "16.2.0.50",
+          "Syncfusion.Xamarin.SfRating": "16.3.0.21",
+          "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
           "Xamarin.Forms": "3.2.0.839982"
@@ -1327,16 +1407,6 @@
         "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll",
         "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll",
         "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll"
-      ]
-    },
-    "ChurchNexusPayTMPackage/1.0.0": {
-      "sha512": "VlnrUmo42UImjbhGCsKFkm0Cod7Eg5qQghnavi0kwm4I+Z8XKXZPV5cTmWvViEPl99tkJHY4Oaxk3v0vrUsSrA==",
-      "type": "package",
-      "path": "churchnexuspaytmpackage/1.0.0",
-      "files": [
-        "churchnexuspaytmpackage.1.0.0.nupkg.sha512",
-        "churchnexuspaytmpackage.nuspec",
-        "lib/paytm.dll"
       ]
     },
     "Microsoft.Bcl/1.1.10": {
@@ -1658,10 +1728,10 @@
         "skiasharp.views.forms.nuspec"
       ]
     },
-    "Syncfusion.Licensing/16.2.0.50": {
-      "sha512": "TzRwgHENh9YdRcq04RibfNPk7Vaj4Ok2pDzE8oN2N2fogYgM8LJFumOUmu6bg9jgbGgOFBMdlJ9YQ3GolctCCQ==",
+    "Syncfusion.Licensing/16.3.0.21": {
+      "sha512": "3eUgJfio0CJDZfelQcZPKe6jpC670ysA6tbDda3ZjvnqYr7rDnMlRlOFWeyXgKrc4X0UZpS8eitIlBrb3F6SaA==",
       "type": "package",
-      "path": "syncfusion.licensing/16.2.0.50",
+      "path": "syncfusion.licensing/16.3.0.21",
       "files": [
         ".signature.p7s",
         "lib/MonoAndroid10/Syncfusion.Licensing.dll",
@@ -1674,18 +1744,19 @@
         "lib/net451/Syncfusion.Licensing.dll",
         "lib/net46/Syncfusion.Licensing.dll",
         "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
         "lib/netstandard1.4/Syncfusion.Licensing.dll",
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.16.2.0.50.nupkg.sha512",
+        "syncfusion.licensing.16.3.0.21.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfRating/16.2.0.50": {
-      "sha512": "9NDnvrdwrM4+qetAKI6VWM4bn9nHAlCP3WWOpVSaaxbBps1XdDW+Beyyn1gJdaJr6TdRmI05sBAgDbnRVsGu1g==",
+    "Syncfusion.Xamarin.SfRating/16.3.0.21": {
+      "sha512": "e7EonxYCDcSS5VgXe+QJlBxH0lMR0ewwvjVvKvLagwFo4IeajJ/Qk9RfKOiyKVk2KMlpMhvvzbqugswvR1lHxw==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfrating/16.2.0.50",
+      "path": "syncfusion.xamarin.sfrating/16.3.0.21",
       "files": [
         ".signature.p7s",
         "lib/MonoAndroid10/Syncfusion.SfRating.Android.dll",
@@ -1724,7 +1795,7 @@
         "lib/uap10.0/Syncfusion.SfShared.UWP/Syncfusion.SfShared.UWP.xr.xml",
         "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xaml",
         "lib/uap10.0/Syncfusion.SfShared.UWP/Themes/generic.xbf",
-        "syncfusion.xamarin.sfrating.16.2.0.50.nupkg.sha512",
+        "syncfusion.xamarin.sfrating.16.3.0.21.nupkg.sha512",
         "syncfusion.xamarin.sfrating.nuspec"
       ]
     },
@@ -1739,6 +1810,71 @@
         "lib/Xamarin.iOS10/WebP.Touch.xml",
         "webp.touch.1.0.8.nupkg.sha512",
         "webp.touch.nuspec"
+      ]
+    },
+    "Xam.Plugin.Connectivity/4.0.0.190-beta": {
+      "sha512": "p9PofTKArw6wHg45GpRRE+xDioJGOSAgA+X+E+vUf1CFZmTzeOO3YCmFdP7/W8x6f85Z50zugXGoszEGJx4QSg==",
+      "type": "package",
+      "path": "xam.plugin.connectivity/4.0.0.190-beta",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.xml",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.dll",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.xml",
+        "lib/UAP10/Plugin.Connectivity.XML",
+        "lib/UAP10/Plugin.Connectivity.dll",
+        "lib/UAP10/Plugin.Connectivity.pdb",
+        "lib/UAP10/Plugin.Connectivity.pri",
+        "lib/UAP10/Plugin.Connectivity/Properties/Plugin.Connectivity.rd.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.xml",
+        "lib/net45/Plugin.Connectivity.Abstractions.dll",
+        "lib/net45/Plugin.Connectivity.Abstractions.pdb",
+        "lib/net45/Plugin.Connectivity.Abstractions.xml",
+        "lib/net45/Plugin.Connectivity.XML",
+        "lib/net45/Plugin.Connectivity.dll",
+        "lib/net45/Plugin.Connectivity.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netcoreapp2.0/Plugin.Connectivity.deps.json",
+        "lib/netcoreapp2.0/Plugin.Connectivity.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.deps.json",
+        "lib/netstandard1.0/Plugin.Connectivity.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.xml",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.dll",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.pdb",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.xml",
+        "lib/tizen40/Plugin.Connectivity.deps.json",
+        "lib/tizen40/Plugin.Connectivity.dll",
+        "xam.plugin.connectivity.4.0.0.190-beta.nupkg.sha512",
+        "xam.plugin.connectivity.nuspec"
       ]
     },
     "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -2016,6 +2152,18 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.SimplePing/1.4.0": {
+      "sha512": "L00a5GlowQZxI3yyvCo7clpA1s96eQ0MGgwFphB8azpUBn2TwPkFQGo1UTu6So2IuhIdwz9I61f1WF0XLQn95A==",
+      "type": "package",
+      "path": "xamarin.simpleping/1.4.0",
+      "files": [
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/XamarinMac20/Xamarin.SimplePing.Mac.dll",
+        "lib/XamariniOS10/Xamarin.SimplePing.iOS.dll",
+        "xamarin.simpleping.1.4.0.nupkg.sha512",
+        "xamarin.simpleping.nuspec"
+      ]
+    },
     "WhiteLabel/1.0.0": {
       "type": "project",
       "path": "../MasterDetailPageNavigation/WhiteLabel.csproj",
@@ -2080,43 +2228,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package ChurchNexusPayTMPackage 1.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package ChurchNexusPayTMPackage 1.0.0 supports: net (.NETFramework,Version=v0.0)",
-      "libraryId": "ChurchNexusPayTMPackage",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package ChurchNexusPayTMPackage 1.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package ChurchNexusPayTMPackage 1.0.0 supports: net (.NETFramework,Version=v0.0)",
-      "libraryId": "ChurchNexusPayTMPackage",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package ChurchNexusPayTMPackage 1.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package ChurchNexusPayTMPackage 1.0.0 supports: net (.NETFramework,Version=v0.0)",
-      "libraryId": "ChurchNexusPayTMPackage",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win-x64"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package ChurchNexusPayTMPackage 1.0.0 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package ChurchNexusPayTMPackage 1.0.0 supports: net (.NETFramework,Version=v0.0)",
-      "libraryId": "ChurchNexusPayTMPackage",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    }
-  ]
+  }
 }

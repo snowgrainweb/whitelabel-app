@@ -13,6 +13,10 @@
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfRating.XForms.iOS.dll
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfRating.iOS.dll
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/WebP.Touch.dll
+/Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.dll
+/Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.pdb
+/Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.dll
+/Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.pdb
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/ImageCircle.Forms.Plugin.dll
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.dll
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.pdb
@@ -63,6 +67,8 @@
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/Xamarin.SimplePing.iOS.dll
+/Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/paytm.dll
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/WhiteLabel.dll
 /Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/WhiteLabel.pdb
 /Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool/_BundleResourceWithLogicalName.items
@@ -104,4 +110,3 @@
 /Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/iWhiteLabeliOS.exe
 /Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/iWhiteLabeliOS.pdb
-/Users/Riju/Downloads/MasterDetailPage/iOS/bin/iPhoneSimulator/Debug/paytm.dll

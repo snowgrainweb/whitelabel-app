@@ -94,7 +94,17 @@ namespace WhiteLabel
 		protected override async void OnAppearing()
 		{
 			var UrlD = Url + Utility.getLanguageCode(GlobalData.language);
-			string content = await client.GetStringAsync(UrlD);
+			string content = "";
+			if (Utility.isConnected())
+            {
+				content = await client.GetStringAsync(UrlD);
+            }
+            else
+            {
+                DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
+                return;
+            }
+
             masterpageItem = new ObservableCollection<MasterPageItem>();
 			MenuItemResponse response = JsonConvert.DeserializeObject<MenuItemResponse>(content);
 			foreach(MenuItem item in response.NavigationList) {

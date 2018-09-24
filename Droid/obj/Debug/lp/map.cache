@@ -9,6 +9,8 @@ FFImageLoading.Platform
 FormsViewGroup
 ImageCircle.Forms.Plugin
 Newtonsoft.Json
+Plugin.Connectivity.Abstractions
+Plugin.Connectivity
 SkiaSharp
 SkiaSharp.Views.Android
 SkiaSharp.Views.Forms
@@ -44,6 +46,6 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+paytm
 System.Resources.ResourceManager
 System.Reflection.Extensions
-paytm

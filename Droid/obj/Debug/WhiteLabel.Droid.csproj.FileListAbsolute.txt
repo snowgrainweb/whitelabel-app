@@ -3,6 +3,7 @@
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/com.companyname.whitelabel.apk
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/com.companyname.whitelabel-Signed.apk
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/WhiteLabel.dll
+/Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/paytm.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/WhiteLabel.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/WhiteLabel.Droid.csprojResolveAssemblyReference.cache
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/WhiteLabel.Droid.csproj.CoreCompileInputs.cache
@@ -60,12 +61,12 @@
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/R.cs.flag
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/R.txt
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/uploadflags.txt
-/Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/paytm.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/FFImageLoading.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/FFImageLoading.Forms.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/FFImageLoading.Forms.Platform.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/FFImageLoading.Platform.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/Mono.Android.pdb
+/Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/Plugin.Connectivity.Abstractions.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/Xamarin.Forms.Core.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/WhiteLabel.Droid.pdb
@@ -74,10 +75,13 @@
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/FFImageLoading.Forms.Platform.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/FFImageLoading.Platform.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/Mono.Android.pdb
+/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/Plugin.Connectivity.Abstractions.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/WhiteLabel.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/Xamarin.Forms.Core.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/Xamarin.Forms.Xaml.pdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/FormsViewGroup.dll.mdb
+/Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/Plugin.Connectivity.dll.mdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/FormsViewGroup.dll.mdb
+/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/Plugin.Connectivity.dll.mdb
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/linksrc/Xamarin.Forms.Platform.Android.dll.mdb

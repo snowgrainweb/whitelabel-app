@@ -26,6 +26,8 @@ Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
 	/Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/Xamarin.iOS.dll
 Function=UIApplicationMain
 	/Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SimplePing
+	/Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/Xamarin.SimplePing.iOS.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper

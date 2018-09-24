@@ -16,11 +16,11 @@ public class CachedImageRenderer
 	}
 
 
-	public CachedImageRenderer (android.content.Context p0)
+	public CachedImageRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
-		super (p0);
+		super (p0, p1, p2);
 		if (getClass () == CachedImageRenderer.class)
-			mono.android.TypeManager.Activate ("FFImageLoading.Forms.Platform.CachedImageRenderer, FFImageLoading.Forms.Platform", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("FFImageLoading.Forms.Platform.CachedImageRenderer, FFImageLoading.Forms.Platform", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
 	}
 
 
@@ -32,11 +32,11 @@ public class CachedImageRenderer
 	}
 
 
-	public CachedImageRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public CachedImageRenderer (android.content.Context p0)
 	{
-		super (p0, p1, p2);
+		super (p0);
 		if (getClass () == CachedImageRenderer.class)
-			mono.android.TypeManager.Activate ("FFImageLoading.Forms.Platform.CachedImageRenderer, FFImageLoading.Forms.Platform", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+			mono.android.TypeManager.Activate ("FFImageLoading.Forms.Platform.CachedImageRenderer, FFImageLoading.Forms.Platform", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
 	}
 
 

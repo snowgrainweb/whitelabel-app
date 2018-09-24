@@ -118,6 +118,8 @@ class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"ImageCircle.Forms.Plugin.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
 		"SkiaSharp.dll",
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",

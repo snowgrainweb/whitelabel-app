@@ -115,24 +115,24 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./LaunchImage.launchimage/[ipad][][2x][portrait][full-screen][]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>LaunchImage.launchimage/Default-Portrait@2x.png is 1536x2008 but should be 1536x2048.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
 				<string>./LaunchImage.launchimage/[ipad][][1x][portrait][full-screen][]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>LaunchImage.launchimage/Default-Portrait.png is 768x1004 but should be 768x1024.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][2x][portrait][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Riju/Downloads/MasterDetailPage/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>LaunchImage.launchimage/Default-Portrait@2x.png is 1536x2008 but should be 1536x2048.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>

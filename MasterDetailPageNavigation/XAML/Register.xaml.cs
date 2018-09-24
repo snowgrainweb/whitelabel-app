@@ -194,7 +194,16 @@ namespace WhiteLabel
             var RegUrl = "https://whitelabel-dxebr.d.epsilon.com/api/sitecore/Accounts/AppRegister?Email=’{emailId}’&Password=’{pswd}’&ConfirmPassword=’{pswd}’";
             RegUrl = RegUrl.Replace("{emailId}", UserName);
             RegUrl = RegUrl.Replace("{pswd}", Password);
-            string content = await client.GetStringAsync(RegUrl);
+			string content = "";
+			if (Utility.isConnected())
+            {
+				content = await client.GetStringAsync(RegUrl);
+            }
+            else
+            {
+                DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
+                return false;
+            }            
             if (content.Contains("\"success\":true"))
             {
                 return true;

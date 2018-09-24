@@ -167,11 +167,13 @@
 	-r=/Users/Riju/.nuget/packages/skiasharp/1.60.3/lib/Xamarin.iOS/SkiaSharp.dll \
 	-r=/Users/Riju/.nuget/packages/skiasharp.views/1.60.3/lib/Xamarin.iOS/SkiaSharp.Views.iOS.dll \
 	-r=/Users/Riju/.nuget/packages/skiasharp.views.forms/1.60.3/lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll \
-	-r=/Users/Riju/.nuget/packages/syncfusion.licensing/16.2.0.50/lib/Xamarin.iOS10/Syncfusion.Licensing.dll \
-	-r=/Users/Riju/.nuget/packages/syncfusion.xamarin.sfrating/16.2.0.50/lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.dll \
-	-r=/Users/Riju/.nuget/packages/syncfusion.xamarin.sfrating/16.2.0.50/lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.iOS.dll \
-	-r=/Users/Riju/.nuget/packages/syncfusion.xamarin.sfrating/16.2.0.50/lib/Xamarin.iOS10/Syncfusion.SfRating.iOS.dll \
+	-r=/Users/Riju/.nuget/packages/syncfusion.licensing/16.3.0.21/lib/Xamarin.iOS10/Syncfusion.Licensing.dll \
+	-r=/Users/Riju/.nuget/packages/syncfusion.xamarin.sfrating/16.3.0.21/lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.dll \
+	-r=/Users/Riju/.nuget/packages/syncfusion.xamarin.sfrating/16.3.0.21/lib/Xamarin.iOS10/Syncfusion.SfRating.XForms.iOS.dll \
+	-r=/Users/Riju/.nuget/packages/syncfusion.xamarin.sfrating/16.3.0.21/lib/Xamarin.iOS10/Syncfusion.SfRating.iOS.dll \
 	-r=/Users/Riju/.nuget/packages/webp.touch/1.0.8/lib/Xamarin.iOS10/WebP.Touch.dll \
+	-r=/Users/Riju/.nuget/packages/xam.plugin.connectivity/4.0.0.190-beta/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll \
+	-r=/Users/Riju/.nuget/packages/xam.plugin.connectivity/4.0.0.190-beta/lib/Xamarin.iOS10/Plugin.Connectivity.dll \
 	-r=/Users/Riju/.nuget/packages/xam.plugins.forms.imagecircle/3.0.0.5/lib/xamarinios10/ImageCircle.Forms.Plugin.dll \
 	-r=/Users/Riju/.nuget/packages/xamarin.ffimageloading/2.4.3.840/lib/Xamarin.iOS10/FFImageLoading.Platform.dll \
 	-r=/Users/Riju/.nuget/packages/xamarin.ffimageloading/2.4.3.840/lib/Xamarin.iOS10/FFImageLoading.dll \
@@ -215,6 +217,7 @@
 	-r=/Users/Riju/.nuget/packages/xamarin.forms/3.2.0.839982/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r=/Users/Riju/.nuget/packages/xamarin.forms/3.2.0.839982/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r=/Users/Riju/.nuget/packages/xamarin.forms/3.2.0.839982/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r=/Users/Riju/.nuget/packages/xamarin.simpleping/1.4.0/lib/XamariniOS10/Xamarin.SimplePing.iOS.dll \
 	-r=/Users/Riju/Downloads/Paytm_App_Checksum_Kit_DotNet-master/Checksumcsharp/Bin/paytm.dll \
 	-r=/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/bin/Debug/netstandard2.0/WhiteLabel.dll \
 	'--target-framework=Xamarin.iOS,v1.0' \

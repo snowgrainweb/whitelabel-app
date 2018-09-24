@@ -13,6 +13,8 @@
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/android/assets/Mono.Android.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/android/assets/mscorlib.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/android/assets/Plugin.Connectivity.Abstractions.dll
+/Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/android/assets/Plugin.Connectivity.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/android/assets/SkiaSharp.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/android/assets/SkiaSharp.Views.Android.dll
 /Users/Riju/Downloads/MasterDetailPage/Droid/obj/Debug/android/assets/SkiaSharp.Views.Forms.dll

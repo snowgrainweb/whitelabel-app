@@ -8,6 +8,8 @@ using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using System;
 using System.Collections.ObjectModel;
+using Plugin.Connectivity;
+using System.Threading.Tasks;
 
 namespace WhiteLabel
 {
@@ -15,7 +17,7 @@ namespace WhiteLabel
 	{
 		private const string Url = "https://whitelabel-dxebr.d.epsilon.com/sitecore/api/ssc/aggregate/content/Items('%7b{id}%7d')/Children?language=en&$expand=Fields($select=Name,Value,Url)&sc_apikey={3EF5CA5D-52D4-4FCF-A614-6260D5E52522}";
 		public static ArticleResponse Articles { get; set; }
-        private readonly HttpClient client = new HttpClient();
+        private readonly static HttpClient client = new HttpClient();
 		public static ObservableCollection<WhiteLabel.ContentListItem> contentListItems { get; set; }
         public Utility()
         {
@@ -154,6 +156,14 @@ namespace WhiteLabel
 					return "es-ES";
 			}
 			return "en";
+		}
+
+		public static bool isConnected() {			
+			if (CrossConnectivity.Current.IsConnected) {
+				return true;
+            } else {
+				return false;
+            } 
 		}
     }
 	public class ArticleResponse

@@ -1,19 +1,18 @@
 ﻿<Properties StartupConfiguration="{3D54620E-23F2-462B-A824-B074D41BD507}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.WhiteLabel.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D386A928-EA5B-4AEA-91C1-8546850332C5" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetailPageNavigation/XAML/OrderPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MasterDetailPageNavigation/Utility.cs">
     <Files>
-      <File FileName="MasterDetailPageNavigation/XAML/ProductDetail.xaml" Line="64" Column="15" />
-      <File FileName="MasterDetailPageNavigation/XAML/ProductDetail.xaml.cs" Line="22" Column="46" />
-      <File FileName="MasterDetailPageNavigation/XAML/ArticlesPage.xaml.cs" Line="40" Column="48" />
-      <File FileName="MasterDetailPageNavigation/XAML/Login.xaml.cs" Line="121" Column="22" />
-      <File FileName="iOS/Info.plist" />
-      <File FileName="MasterDetailPageNavigation/XAML/OrderPage.xaml" Line="2" Column="139" />
-      <File FileName="MasterDetailPageNavigation/XAML/OrderPage.xaml.cs" Line="6" Column="21" />
+      <File FileName="MasterDetailPageNavigation/XAML/Register.xaml.cs" Line="206" Column="14" />
+      <File FileName="MasterDetailPageNavigation/XAML/Login.xaml.cs" Line="163" Column="23" />
+      <File FileName="MasterDetailPageNavigation/Utility.cs" Line="161" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/XAML/Login.xaml.cs" relfile="MasterDetailPageNavigation/XAML/Login.xaml.cs" line="163" column="1" />
+      <Breakpoint file="/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/XAML/HomePage.xaml.cs" relfile="MasterDetailPageNavigation/XAML/HomePage.xaml.cs" line="72" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WhiteLabel.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />

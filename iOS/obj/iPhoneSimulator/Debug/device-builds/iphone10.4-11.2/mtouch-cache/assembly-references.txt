@@ -52,6 +52,9 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.177/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.177/lib/mono/Xamarin.iOS/Facades/System.Globalization.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.177/lib/mono/Xamarin.iOS/Facades/System.Reflection.Extensions.dll
+/Users/Riju/.nuget/packages/xam.plugin.connectivity/4.0.0.190-beta/lib/Xamarin.iOS10/Plugin.Connectivity.dll
+/Users/Riju/.nuget/packages/xam.plugin.connectivity/4.0.0.190-beta/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll
+/Users/Riju/.nuget/packages/xamarin.simpleping/1.4.0/lib/XamariniOS10/Xamarin.SimplePing.iOS.dll
 /Users/Riju/Downloads/Paytm_App_Checksum_Kit_DotNet-master/Checksumcsharp/Bin/paytm.dll
 /Users/Riju/.nuget/packages/xam.plugins.forms.imagecircle/3.0.0.5/lib/xamarinios10/ImageCircle.Forms.Plugin.dll
 /Users/Riju/.nuget/packages/carouselview.formsplugin/5.2.0/lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll

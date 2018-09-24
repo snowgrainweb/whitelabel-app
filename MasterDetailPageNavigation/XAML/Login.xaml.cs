@@ -99,6 +99,11 @@ namespace WhiteLabel
 
 		void Handle_Clicked_1(object sender, System.EventArgs e)
 		{
+			if (!Utility.isConnected())
+            {
+				DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
+                return;
+            }
 			ShowLoading();
 			GlobalData.language = picker.SelectedItem.ToString();
 			var apiRequest =
@@ -154,7 +159,15 @@ namespace WhiteLabel
 			var LoginUrl = "https://whitelabel-dxebr.d.epsilon.com/api/sitecore/Accounts/AppLogin?Email=’{emailId}’&amp;Password=’{pswd}’";
 			LoginUrl = LoginUrl.Replace("{emailId}", UserName);
 			LoginUrl = LoginUrl.Replace("{pswd}", Password);
-			string content = await client.GetStringAsync(LoginUrl);
+			string content = "";
+			if (Utility.isConnected())
+			{
+				content = await client.GetStringAsync(LoginUrl);
+			}
+			else {
+				DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
+				return false;
+			}
 			if (content.Contains("\"Success\":true")){
 				Application.Current.Properties["isLoggedIn"] = Boolean.TrueString;
 				return true;
