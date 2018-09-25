@@ -16,6 +16,11 @@ namespace WhiteLabel
 
 		void Handle_Clicked(object sender, System.EventArgs e)
 		{
+			if (!Utility.isConnected())
+            {
+                DisplayAlert("Not Connected", "There's no internet connectivity", "OK");
+                return;
+            }
 			string orderid = System.Guid.NewGuid().ToString();
             String merchantKey = "TDhoW2TrdXK&VLD_";
             Dictionary<string, string> parameters = new Dictionary<string, string>();

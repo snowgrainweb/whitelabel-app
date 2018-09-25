@@ -98,11 +98,19 @@ namespace WhiteLabel
 			if (Utility.isConnected())
             {
 				content = await client.GetStringAsync(UrlD);
+				Application.Current.Properties["MenuCache"] = content;
             }
             else
             {
-                DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
-                return;
+				if (Application.Current.Properties.ContainsKey("MenuCache"))
+				{
+					content = (string)Application.Current.Properties["MenuCache"];
+				}
+				else
+				{
+					//DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
+					return;
+				}
             }
 
             masterpageItem = new ObservableCollection<MasterPageItem>();

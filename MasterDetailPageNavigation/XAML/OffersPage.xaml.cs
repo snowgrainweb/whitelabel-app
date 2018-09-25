@@ -18,6 +18,11 @@ namespace WhiteLabel
 		public ListView ListView { get { return listView1; } }
 		void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
         {
+			if (!Utility.isConnected())
+            {
+                DisplayAlert("Not Connected", "There's no internet connectivity", "OK");
+                return;
+            }
             var content = e.Item as ContentListItem;
             ProductDetail productDetail = new ProductDetail();
             productDetail.BindingContext = content;
@@ -81,6 +86,11 @@ namespace WhiteLabel
         }
 		protected override bool OnBackButtonPressed()
         {
+			if (!Utility.isConnected())
+            {
+                DisplayAlert("Not Connected", "There's no internet connectivity", "OK");
+                return;
+            }
             MasterDetailPage fpm = new MasterDetailPage();
 
 

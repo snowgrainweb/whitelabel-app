@@ -32,6 +32,15 @@ namespace WhiteLabel
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
 			var item = e.SelectedItem as MasterPageItem;
+			if (!Utility.isConnected() && item.Title != "Home")
+            {
+            
+                DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
+				masterPage.ListView.SelectedItem = null;
+                IsPresented = false;
+                item.IsInProgress = false;
+                return;
+            }
 			try
 			{				
 				item.IsInProgress = true;
@@ -68,6 +77,14 @@ namespace WhiteLabel
                     item.IsInProgress = false;
 					return;
 				}
+				if (item.Title == "Settings")
+                {
+					Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(SettingsPage)));
+                    masterPage.ListView.SelectedItem = null;
+                    IsPresented = false;
+                    item.IsInProgress = false;
+                    return;
+                }
 				if (item != null)
 				{					
 					Utility.Articles = response;

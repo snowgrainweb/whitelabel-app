@@ -23,6 +23,11 @@ namespace WhiteLabel
 		}
 		protected override bool OnBackButtonPressed()
         {
+			if (!Utility.isConnected())
+            {
+                DisplayAlert("Not Connected", "There's no internet connectivity", "OK");
+                return;
+            }
             MasterDetailPage fpm = new MasterDetailPage();
 
 

@@ -65,15 +65,23 @@ namespace WhiteLabel
 			if(Navigation.NavigationStack.Count > 0 && Navigation.NavigationStack[0].GetType() == typeof(Login)){
 				Navigation.RemovePage(Navigation.NavigationStack[0]);	
 			}
-
+            
 			Device.BeginInvokeOnMainThread(() => { listView1.IsRefreshing = true; listView1.BeginRefresh(); });
 			var UrlD = Url + Utility.getLanguageCode(GlobalData.language);
 			string content = "";
 			if(Utility.isConnected()){
 				content = await client.GetStringAsync(UrlD);
+				Application.Current.Properties["HomeCache"] = content; 
 			} else {
-				DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
-				return;
+				//DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
+				if (Application.Current.Properties.ContainsKey  ("HomeCache"))
+				{
+					content = (string)Application.Current.Properties["HomeCache"];
+				}
+				else
+				{
+					return;
+				}
 			}
 			HomeData response = JsonConvert.DeserializeObject<HomeData>(content);
 			contentListItems = new ObservableCollection<WhiteLabel.ContentListItem>();

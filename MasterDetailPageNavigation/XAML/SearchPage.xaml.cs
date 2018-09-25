@@ -33,6 +33,11 @@ namespace WhiteLabel
 		}
 		async void Handle_TextChanged(object sender, Xamarin.Forms.TextChangedEventArgs e)
 		{
+			if (!Utility.isConnected())
+            {
+                DisplayAlert("Not Connected", "There's no internet connectivity", "OK");
+                return;
+            }
 			Device.BeginInvokeOnMainThread(() => { list.IsRefreshing = true; list.BeginRefresh(); });
 			var NewUrl = "https://whitelabel-dxebr.d.epsilon.com/sitecore/api/ssc/aggregate/content/Items?language=en&$expand=Fields($select=Name,Value,Url)&$filter=Fields/any(f: (f/Name eq 'AppName' and f/Value eq '" + e.NewTextValue + "'))&sc_apikey={3EF5CA5D-52D4-4FCF-A614-6260D5E52522}";
 			string content = await client.GetStringAsync(NewUrl);

@@ -166,7 +166,7 @@ namespace WhiteLabel
 			}
 			else {
 				DisplayAlert("No Connectivity", "There's no internet connectivity.", "OK");
-				return false;
+				return true;
 			}
 			if (content.Contains("\"Success\":true")){
 				Application.Current.Properties["isLoggedIn"] = Boolean.TrueString;
