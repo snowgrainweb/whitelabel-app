@@ -20,3 +20,5 @@
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/XAML/ContactPage.xaml.g.cs
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/XAML/OrderPage.xaml.g.cs
 /Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/WhiteLabel.csprojResolveAssemblyReference.cache
+/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/obj/Release/netstandard2.0/XAML/SettingsPage.xaml.g.cs
+/Users/Riju/Downloads/MasterDetailPage/MasterDetailPageNavigation/bin/Release/netstandard2.0/paytm.dll

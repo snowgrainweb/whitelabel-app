@@ -26,7 +26,7 @@ namespace WhiteLabel
 			if (!Utility.isConnected())
             {
                 DisplayAlert("Not Connected", "There's no internet connectivity", "OK");
-                return;
+                return false;
             }
             MasterDetailPage fpm = new MasterDetailPage();
 

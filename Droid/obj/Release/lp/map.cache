@@ -47,3 +47,5 @@ netstandard
 System.Resources.ResourceManager
 System.Reflection.Extensions
 paytm
+Plugin.Connectivity.Abstractions
+Plugin.Connectivity

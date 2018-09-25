@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "d925e654ad86b47e5669f399d513cdad9b74aa71"
+    "signature": "c067a3211cfdcdb5c38758ea8f6b4881bcd60d61"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,16 +10,17 @@
       "WhiteLabel/1.0.0": {
         "dependencies": {
           "CarouselView.FormsPlugin": "5.2.0",
-          "ChurchNexusPayTMPackage": "1.0.0",
           "Microsoft.Net.Http": "2.2.29",
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
           "Plugin.Facebook": "1.0.0",
           "SkiaSharp.Views.Forms": "1.60.3",
-          "Syncfusion.Xamarin.SfRating": "16.2.0.50",
+          "Syncfusion.Xamarin.SfRating": "16.3.0.21",
+          "Xam.Plugin.Connectivity": "4.0.0.190-beta",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
-          "Xamarin.Forms": "3.2.0.839982"
+          "Xamarin.Forms": "3.2.0.839982",
+          "paytm": "1.0.0.0"
         },
         "runtime": {
           "WhiteLabel.dll": {}
@@ -28,11 +29,6 @@
       "CarouselView.FormsPlugin/5.2.0": {
         "runtime": {
           "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll": {}
-        }
-      },
-      "ChurchNexusPayTMPackage/1.0.0": {
-        "runtime": {
-          "lib/paytm.dll": {}
         }
       },
       "Microsoft.Bcl/1.1.10": {
@@ -82,18 +78,27 @@
           "lib/netstandard1.3/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/16.2.0.50": {
+      "Syncfusion.Licensing/16.3.0.21": {
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfRating/16.2.0.50": {
+      "Syncfusion.Xamarin.SfRating/16.3.0.21": {
         "dependencies": {
-          "Syncfusion.Licensing": "16.2.0.50",
+          "Syncfusion.Licensing": "16.3.0.21",
           "Xamarin.Forms": "3.2.0.839982"
         },
         "runtime": {
           "lib/netstandard1.0/Syncfusion.SfRating.XForms.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/4.0.0.190-beta": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Connectivity.dll": {}
         }
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
@@ -125,6 +130,11 @@
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
         }
+      },
+      "paytm/1.0.0.0": {
+        "runtime": {
+          "paytm.dll": {}
+        }
       }
     }
   },
@@ -140,13 +150,6 @@
       "sha512": "sha512-h849lqz0wvmpyiXqCrN7EW+cCGqK5chcefCfS55CkoGMMQx238QWNknUTOl/CvIdZ4bgs0Oztb7kamYXDlQ5mQ==",
       "path": "carouselview.formsplugin/5.2.0",
       "hashPath": "carouselview.formsplugin.5.2.0.nupkg.sha512"
-    },
-    "ChurchNexusPayTMPackage/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VlnrUmo42UImjbhGCsKFkm0Cod7Eg5qQghnavi0kwm4I+Z8XKXZPV5cTmWvViEPl99tkJHY4Oaxk3v0vrUsSrA==",
-      "path": "churchnexuspaytmpackage/1.0.0",
-      "hashPath": "churchnexuspaytmpackage.1.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl/1.1.10": {
       "type": "package",
@@ -211,19 +214,26 @@
       "path": "skiasharp.views.forms/1.60.3",
       "hashPath": "skiasharp.views.forms.1.60.3.nupkg.sha512"
     },
-    "Syncfusion.Licensing/16.2.0.50": {
+    "Syncfusion.Licensing/16.3.0.21": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TzRwgHENh9YdRcq04RibfNPk7Vaj4Ok2pDzE8oN2N2fogYgM8LJFumOUmu6bg9jgbGgOFBMdlJ9YQ3GolctCCQ==",
-      "path": "syncfusion.licensing/16.2.0.50",
-      "hashPath": "syncfusion.licensing.16.2.0.50.nupkg.sha512"
+      "sha512": "sha512-3eUgJfio0CJDZfelQcZPKe6jpC670ysA6tbDda3ZjvnqYr7rDnMlRlOFWeyXgKrc4X0UZpS8eitIlBrb3F6SaA==",
+      "path": "syncfusion.licensing/16.3.0.21",
+      "hashPath": "syncfusion.licensing.16.3.0.21.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.SfRating/16.2.0.50": {
+    "Syncfusion.Xamarin.SfRating/16.3.0.21": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9NDnvrdwrM4+qetAKI6VWM4bn9nHAlCP3WWOpVSaaxbBps1XdDW+Beyyn1gJdaJr6TdRmI05sBAgDbnRVsGu1g==",
-      "path": "syncfusion.xamarin.sfrating/16.2.0.50",
-      "hashPath": "syncfusion.xamarin.sfrating.16.2.0.50.nupkg.sha512"
+      "sha512": "sha512-e7EonxYCDcSS5VgXe+QJlBxH0lMR0ewwvjVvKvLagwFo4IeajJ/Qk9RfKOiyKVk2KMlpMhvvzbqugswvR1lHxw==",
+      "path": "syncfusion.xamarin.sfrating/16.3.0.21",
+      "hashPath": "syncfusion.xamarin.sfrating.16.3.0.21.nupkg.sha512"
+    },
+    "Xam.Plugin.Connectivity/4.0.0.190-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p9PofTKArw6wHg45GpRRE+xDioJGOSAgA+X+E+vUf1CFZmTzeOO3YCmFdP7/W8x6f85Z50zugXGoszEGJx4QSg==",
+      "path": "xam.plugin.connectivity/4.0.0.190-beta",
+      "hashPath": "xam.plugin.connectivity.4.0.0.190-beta.nupkg.sha512"
     },
     "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
       "type": "package",
@@ -252,6 +262,11 @@
       "sha512": "sha512-BtiTMpmTqkzPPlGvQEVrO51kC1e/vieOaGHB+bKUULER0ruf2EQ92zVRwuvLop60g0WQQJ0Arj45TNCu6qCINQ==",
       "path": "xamarin.forms/3.2.0.839982",
       "hashPath": "xamarin.forms.3.2.0.839982.nupkg.sha512"
+    },
+    "paytm/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
